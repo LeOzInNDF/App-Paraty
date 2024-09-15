@@ -1,12 +1,13 @@
 import React from 'react';
-import {Text, View, Image} from 'react-native';
+import {Text, View, Image, ScrollView} from 'react-native';
 import estilos from './estilos';
 import imghospedagem01 from '../../assets/hospedagens/hospedagem01.png';
 import imghospedagem02 from '../../assets/hospedagens/hospedagem02.png';
 import imghospedagem03 from '../../assets/hospedagens/hospedagem03.png';
 
-export default function TelaPasseios(){
+export default function TelaHospedagem(){
   return (
+    <ScrollView >
     <View style={estilos.container}>
     <Text style={estilos.titulo}>Pousadas e Hotéis em Paraty</Text>
     <Text style={estilos.descricao}>Paraty conta com excelentes hoteis e pousadas cujos preços podem variar de R$200,00 à R$1500,00. Veja algumas pousadas abaixo.</Text>
@@ -29,6 +30,7 @@ export default function TelaPasseios(){
     Localização: Centro Histórico</Text>
     </View>
     </View>
+    </ScrollView>
   );
 }
 
