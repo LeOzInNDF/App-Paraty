@@ -4,7 +4,7 @@ import { StyleSheet } from'react-native';
 const estilos = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f4fbc3',
+    backgroundColor: '#beceff',
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
@@ -13,7 +13,7 @@ const estilos = StyleSheet.create({
     textAlign: 'center',
     fontSize: 20,
     fontWeight: 'bold',
-    marginBottom: 5,
+    marginBottom: 10,
   },
   descricao: {
     textAlign: 'center',
@@ -31,15 +31,17 @@ const estilos = StyleSheet.create({
   },
   imgcard:{
     width: 300,
-    height: 80,
-    marginBottom: 5,
+    height: 50,
+    marginBottom: 10,
   },
   titulocard: {
     fontSize: 16,
     fontWeight: 'bold',
-    marginBottom: 5,
-    textAlign: 'center'
+    marginBottom: 5, 
   },
+  boxdesceicao: {
+    
+  }
 
 });
 
