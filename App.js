@@ -8,6 +8,7 @@ import TelaRestaurantes from './componentes/TelaRestaurantes';
 import TelaHospedagem from './componentes/TelaHospedagem';
 
 
+
 const Stack = createStackNavigator();
 
 export default function App() {
